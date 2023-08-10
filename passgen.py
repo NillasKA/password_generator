@@ -5,6 +5,11 @@ import random
 letters = "abcdefghijklmnopqrstuvwxyz!@%&?#1234567890"
 pass_length = random.randrange(15, 20)
 
+#Function to convert some letters to capital letters
+def uppercase():
+    for i in letters:
+        ran_index = random.randint(0, len(letters) - 1)
+        
 #The generator itself
 def generator():
     password = ""
