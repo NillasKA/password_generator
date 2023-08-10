@@ -15,4 +15,4 @@ def generator():
 
 generator()
 print("length of password:", pass_length, "letters")
-print(generator()) #
+print(generator())
